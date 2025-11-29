@@ -94,12 +94,8 @@ const AddBannerModal = (props: PropTypes) => {
                     errorMessage={errors.isShow?.message}
                     disallowEmptySelection
                   >
-                    <SelectItem key="true" >
-                      Show
-                    </SelectItem>
-                    <SelectItem key="false">
-                      Hide
-                    </SelectItem>
+                    <SelectItem key="true">Show</SelectItem>
+                    <SelectItem key="false">Hide</SelectItem>
                   </Select>
                 )}
               />

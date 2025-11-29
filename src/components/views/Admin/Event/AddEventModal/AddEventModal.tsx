@@ -176,10 +176,10 @@ const AddEventModal = (props: PropTypes) => {
                       errorMessage={errors.isPublish?.message}
                       disallowEmptySelection
                     >
-                      <SelectItem key="true" value="true">
+                      <SelectItem key="true">
                         Publish
                       </SelectItem>
-                      <SelectItem key="false" value="false">
+                      <SelectItem key="false">
                         Draft
                       </SelectItem>
                     </Select>
@@ -197,10 +197,10 @@ const AddEventModal = (props: PropTypes) => {
                       errorMessage={errors.isFeatured?.message}
                       disallowEmptySelection
                     >
-                      <SelectItem key="true" value="true">
+                      <SelectItem key="true">
                         Yes
                       </SelectItem>
-                      <SelectItem key="false" value="false">
+                      <SelectItem key="false">
                         No
                       </SelectItem>
                     </Select>
@@ -234,10 +234,10 @@ const AddEventModal = (props: PropTypes) => {
                       errorMessage={errors.isOnline?.message}
                       disallowEmptySelection
                     >
-                      <SelectItem key="true" value="true">
+                      <SelectItem key="true">
                         Online
                       </SelectItem>
-                      <SelectItem key="false" value="false">
+                      <SelectItem key="false">
                         Offline
                       </SelectItem>
                     </Select>
