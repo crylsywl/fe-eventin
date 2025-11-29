@@ -115,10 +115,10 @@ const LocationTab = (props: PropTypes) => {
                   disallowEmptySelection
                   defaultSelectedKeys={[dataEvent?.isOnline ? "true" : "false"]}
                 >
-                  <SelectItem key="true" value="true">
+                  <SelectItem key="true">
                     Online
                   </SelectItem>
-                  <SelectItem key="false" value="false">
+                  <SelectItem key="false">
                     Offline
                   </SelectItem>
                 </Select>
