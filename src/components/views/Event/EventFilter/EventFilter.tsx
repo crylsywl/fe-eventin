@@ -75,12 +75,8 @@ const EventFilter = () => {
                   defaultSelectedKeys={[`${currentIsOnline}`]}
                   onChange={(e) => handleChangeIsOnline(e.target.value)}
                 >
-                  <SelectItem key="true" value="true">
-                    Online
-                  </SelectItem>
-                  <SelectItem key="false" value="false">
-                    Offline
-                  </SelectItem>
+                  <SelectItem key="true">Online</SelectItem>
+                  <SelectItem key="false">Offline</SelectItem>
                 </Select>
               )}
             />
@@ -97,12 +93,8 @@ const EventFilter = () => {
                   defaultSelectedKeys={[`${currentIsFeatured}`]}
                   onChange={(e) => handleChangeIsFeatured(e.target.value)}
                 >
-                  <SelectItem key="true" value="true">
-                    Yes
-                  </SelectItem>
-                  <SelectItem key="false" value="false">
-                    No
-                  </SelectItem>
+                  <SelectItem key="true">Yes</SelectItem>
+                  <SelectItem key="false">No</SelectItem>
                 </Select>
               )}
             />
